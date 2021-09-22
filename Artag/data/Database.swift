@@ -136,7 +136,7 @@ struct OnboardingData : Hashable, Identifiable {
     let secondaryText : String
     
     static let list: [OnboardingData] = [
-        OnboardingData(id: 0, backgroundColor: "sable", objectimage: "logo", primaryText: "Bienvenue sur ArtTag", secondaryText: "Avant de commencer à navigué nous allons te montrer le fonctionnement d'ArtTag"),
+        OnboardingData(id: 0, backgroundColor: "sable", objectimage: "logo", primaryText: "Bienvenue sur ArtTag", secondaryText: "Avant de commencer à naviguer nous allons te montrer le fonctionnement d'ArtTag"),
         OnboardingData(id: 1, backgroundColor: "Orange", objectimage:  "Image localisation", primaryText: "Trouve les oeuvres qui t'entourent!", secondaryText: "Avec la fonction de géolocalisation tu peux  trouvez autour de toi les ''Tags'' qui representent un point d'intérets général (musée, Street Art ect) et les consulter pour avoir plus d'informations."),
         OnboardingData(id: 2, backgroundColor: "verteau", objectimage: "photo1", primaryText: "Partage des oeuvres qui te ressemblent !", secondaryText: "Crées ton propre ''Tag''!  Prend en photo un lieu culturel ou artistique, renseigne et partage ton tag afin de faire profiter tout le monde."),
         OnboardingData(id: 3, backgroundColor: "fond3", objectimage: "profilagenda", primaryText: "Planifie et participe!", secondaryText: "Accède à ton Agend'ART qui te permettra de plainifier tes futurs évenements, tu aussi la possiblité de personnaliser ton profil et de mettre en favoris des 'Tags'.")
