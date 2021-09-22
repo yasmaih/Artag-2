@@ -17,6 +17,8 @@ struct MyMapView: View {
         
         ZStack{
             Map(coordinateRegion: $viewModel.region,
+                // C'est .all pour zoom + deplacement
+                // .zomm pour que zomm
                 interactionModes: .all,
                 showsUserLocation : true,
                 userTrackingMode: $trackingMode, annotationItems : tags)

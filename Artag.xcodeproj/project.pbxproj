@@ -26,6 +26,8 @@
 		CD8ECF2226F8C1D400E09799 /* MapAndSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ECF2126F8C1D400E09799 /* MapAndSearch.swift */; };
 		CD8ECF4F26F9FB4A00E09799 /* onboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ECF4E26F9FB4A00E09799 /* onboardingView.swift */; };
 		CD8ECF5226F9FDD700E09799 /* OnboardingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ECF5126F9FDD700E09799 /* OnboardingViews.swift */; };
+		CD97AFBB26FB821400E0B735 /* PubTreille.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97AFBA26FB821400E0B735 /* PubTreille.swift */; };
+		CD97AFBE26FB822000E0B735 /* PubRoubaix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97AFBD26FB822000E0B735 /* PubRoubaix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		CD8ECF2126F8C1D400E09799 /* MapAndSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAndSearch.swift; sourceTree = "<group>"; };
 		CD8ECF4E26F9FB4A00E09799 /* onboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingView.swift; sourceTree = "<group>"; };
 		CD8ECF5126F9FDD700E09799 /* OnboardingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViews.swift; sourceTree = "<group>"; };
+		CD97AFBA26FB821400E0B735 /* PubTreille.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PubTreille.swift; path = "../../../../Desktop/Artag 2/Artag/Screens/PubTreille.swift"; sourceTree = "<group>"; };
+		CD97AFBD26FB822000E0B735 /* PubRoubaix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PubRoubaix.swift; path = "../../../../Desktop/Artag 2/Artag/Screens/PubRoubaix.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				CD1D978126F1E6C2006F5674 /* ProfilScreens.swift */,
 				CD1D978F26F23AD5006F5674 /* PublicationTag.swift */,
 				CD1E8F2726F491B400B2D35F /* EcransDeFavoris.swift */,
+				CD97AFBA26FB821400E0B735 /* PubTreille.swift */,
+				CD97AFBD26FB822000E0B735 /* PubRoubaix.swift */,
 				CD1E8F2D26F4973200B2D35F /* AgendartScreen.swift */,
 				CD8ECF4E26F9FB4A00E09799 /* onboardingView.swift */,
 				CD8ECF5126F9FDD700E09799 /* OnboardingViews.swift */,
@@ -212,8 +218,10 @@
 				CD0D0D3D26F087750061E4DA /* ContentView.swift in Sources */,
 				CD1E8F2826F491B400B2D35F /* EcransDeFavoris.swift in Sources */,
 				CD8ECF5226F9FDD700E09799 /* OnboardingViews.swift in Sources */,
+				CD97AFBB26FB821400E0B735 /* PubTreille.swift in Sources */,
 				CD0D0D4B26F0879B0061E4DA /* Models.swift in Sources */,
 				CD47DDC126F770B200435F72 /* SearchFilter.swift in Sources */,
+				CD97AFBE26FB822000E0B735 /* PubRoubaix.swift in Sources */,
 				CD1D979026F23AD5006F5674 /* PublicationTag.swift in Sources */,
 				CD0D0D3B26F087750061E4DA /* ArtagApp.swift in Sources */,
 				CD1D978226F1E6C2006F5674 /* ProfilScreens.swift in Sources */,

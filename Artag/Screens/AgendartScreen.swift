@@ -9,43 +9,82 @@ import SwiftUI
 
 struct AgendartScreen: View {
     var body: some View {
-        
-           
+        NavigationView {
             VStack{
-            Text("Évenements a venir:")
+                Text("Événements à venir")
                 .font(.title2)
-                .multilineTextAlignment(.leading)
-                HStack (alignment: .top){
-                ZStack {
-                    Image("la cathe")
+                    .multilineTextAlignment(.center)
+                
+                VStack(spacing: 15) {
+                   Image("la cathe")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 300)
                     
-                    Text("Visites guidées en anglais : 18 et  19 Septembre 2021 à 15h30")
-                        .fontWeight(.bold)
-                        .foregroundColor(.pink)
-                        .foregroundColor(Color.black)
-                        .multilineTextAlignment(.center)
-                        .padding()
-                        .background(Color.white)
-                        .opacity(0.7)
-                        .padding(0.0)
+                        Text("FESTIVAL-TREILLE EN FÊTE                                             25 - 26 Septembre 2021")
+                           .fontWeight(.bold)
+                            .foregroundColor(.pink)
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                           .background(Color.white)
+                            .opacity(0.7)
+                           
+                    NavigationLink(
+                        destination: PubRoubaix(),
+                        label: {
+                            Text("Infos")
+                                    .font(.headline)
+                                    .fontWeight(.regular)
+                                    .frame(width: 70, height: 30)
+                                    .foregroundColor(.white)
+                                    .background(Color.orange)
+                                    .cornerRadius(10)
+                        })
+                    
+                   
+                       
+                        HStack{
+            VStack(spacing: 15) {
+                    Image("piscine")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 310)
+                        
+                
+                Text("VERNISSAGE DES EXPOSITIONS D’AUTOMNE                                                                    6 novembre 2021 - 6 février 2022")
+                    .fontWeight(.bold)
+                    .foregroundColor(.pink)
+                    .foregroundColor(Color.black)
+                    
+                    .multilineTextAlignment(.center)
+                   .background(Color.white)
+                    .opacity(0.7)
+                
+                NavigationLink(
+                    destination: PubTreille(),
+                    label: {
+                        Text("Infos")
+                                 .font(.headline)
+                                 .fontWeight(.regular)
+                                 .frame(width: 70, height: 30)
+                                 .foregroundColor(.white)
+                                 .background(Color.orange)
+                                 .cornerRadius(10)
+                    })
+              
+                
+               
+                    
+        }.navigationBarHidden(true)
+                
+                        }.padding()
+                      
+        }
+                }
+            }
                 
                 }
-            
-            }
-        Text("La Cathédrale Notre-Dame de la Treille")
-        .font(.title3)
-        .fontWeight(.thin)
-        .multilineTextAlignment(.leading)
-        .padding()
-                Spacer()
-    
-        }.navigationBarHidden(true)
-       
     }
-}
 
 
 struct AgendartScreen_Previews: PreviewProvider {
@@ -53,3 +92,4 @@ struct AgendartScreen_Previews: PreviewProvider {
         AgendartScreen()
     }
 }
+
