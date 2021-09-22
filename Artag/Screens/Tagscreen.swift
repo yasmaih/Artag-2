@@ -48,15 +48,13 @@ struct TagScreen: View {
                         })
                     
                 }
-                
                 Text(tag.bio)
                 Spacer()
             }
             .padding(.horizontal)
-            
+
         } .navigationBarTitle(tag.name)
     }
-    
 }
 
 /* struct FavorisButton : View {

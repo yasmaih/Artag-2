@@ -12,15 +12,16 @@ struct ProfilScreens: View {
     var body: some View {
         NavigationView{
             ScrollView {
-                HStack{
-                }
-                Button(action: {}, label: {
-                    Text("Modifier")
-                        .font(.headline)
-                        .fontWeight(.medium)
-                        .foregroundColor(.blue)
-                        .multilineTextAlignment(.trailing)
-                    
+                
+                HStack {
+                    Button(action: {}, label: {
+                        Text("Modifier")
+                            .font(.headline)
+                            .fontWeight(.medium)
+                            .foregroundColor(.blue)
+                            .multilineTextAlignment(.trailing)
+                    })
+                    Spacer()
                     Button(action: {}, label: {
                         Spacer(minLength: 20)
                         
@@ -29,8 +30,9 @@ struct ProfilScreens: View {
                             .foregroundColor(.black)
                         
                     })
-                })
-                .padding()
+                }
+                .padding(.horizontal)
+                
                 Text(user.pseudo)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
@@ -45,7 +47,6 @@ struct ProfilScreens: View {
                         .shadow(radius: 5)
                         .frame(width: 250, height: 250)
                     
-                    
                     HStack{
                         Text("Abonnés")
                             .font(.body)
@@ -54,8 +55,8 @@ struct ProfilScreens: View {
                         
                         Text("\(user.NumberOfFollowers)")
                             .foregroundColor(.blue)
-                        
                     }
+                    
                     HStack{
                         Text("Abonnements")
                             .font(.body)
@@ -66,8 +67,8 @@ struct ProfilScreens: View {
                             .font(.body)
                             .foregroundColor(.blue)
                     }
-                    
                 }
+                
                 Text(user.bio)
                     
                     .foregroundColor(Color.black.opacity(0.8))
@@ -107,8 +108,8 @@ struct ProfilScreens: View {
                         
                     }.padding(.horizontal)
                     
-                }.navigationBarHidden(true)
-                
+                }
+                .navigationBarHidden(true)
             }
             
         }
