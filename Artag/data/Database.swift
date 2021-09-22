@@ -64,7 +64,7 @@ var tags: [Tag] = [laCathe, laPiscine, cerfVolant, frac]
 var Julien = User(name: "Choromanski",
                   pseudo: "Redchou",
                   userCity: "Méricourt",
-                  interests: "Rien",
+                  interests: "Rien, non je déconne !",
                   picture: "JulienPic",
                   bio: "Un jour je suis né, et depuis...",
                   NumberOfFollowers: 0,
