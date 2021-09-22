@@ -26,7 +26,6 @@
 		CD8ECF2226F8C1D400E09799 /* MapAndSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ECF2126F8C1D400E09799 /* MapAndSearch.swift */; };
 		CD8ECF4F26F9FB4A00E09799 /* onboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ECF4E26F9FB4A00E09799 /* onboardingView.swift */; };
 		CD8ECF5226F9FDD700E09799 /* OnboardingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ECF5126F9FDD700E09799 /* OnboardingViews.swift */; };
-		CDDB042426FB576700BE163D /* voilaunnouvofichier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB042326FB576700BE163D /* voilaunnouvofichier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 		CD8ECF2126F8C1D400E09799 /* MapAndSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAndSearch.swift; sourceTree = "<group>"; };
 		CD8ECF4E26F9FB4A00E09799 /* onboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingView.swift; sourceTree = "<group>"; };
 		CD8ECF5126F9FDD700E09799 /* OnboardingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViews.swift; sourceTree = "<group>"; };
-		CDDB042326FB576700BE163D /* voilaunnouvofichier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voilaunnouvofichier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +124,6 @@
 				CD1D978126F1E6C2006F5674 /* ProfilScreens.swift */,
 				CD1D978F26F23AD5006F5674 /* PublicationTag.swift */,
 				CD1E8F2726F491B400B2D35F /* EcransDeFavoris.swift */,
-				CDDB042326FB576700BE163D /* voilaunnouvofichier.swift */,
 				CD1E8F2D26F4973200B2D35F /* AgendartScreen.swift */,
 				CD8ECF4E26F9FB4A00E09799 /* onboardingView.swift */,
 				CD8ECF5126F9FDD700E09799 /* OnboardingViews.swift */,
@@ -223,7 +220,6 @@
 				CD0D0D8826F1825C0061E4DA /* MyMapView.swift in Sources */,
 				CD1E8F2E26F4973200B2D35F /* AgendartScreen.swift in Sources */,
 				CD47DDBA26F6648100435F72 /* Search textfield.swift in Sources */,
-				CDDB042426FB576700BE163D /* voilaunnouvofichier.swift in Sources */,
 				CD0D0D5726F0A1840061E4DA /* Tagscreen.swift in Sources */,
 				CD8ECF4F26F9FB4A00E09799 /* onboardingView.swift in Sources */,
 				CD1E8F2B26F496EA00B2D35F /* ParentProfil.swift in Sources */,
