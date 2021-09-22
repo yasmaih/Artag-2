@@ -11,49 +11,49 @@ struct ProfilScreens: View {
     var user: User
     var body: some View {
         NavigationView{
-        VStack {
-            HStack{
-            }
-            Button(action: {}, label: {
-                Text("Modifier")
-                    .font(.headline)
-                    .fontWeight(.medium)
-                    .foregroundColor(.blue)
-                    .multilineTextAlignment(.trailing)
-               
+            ScrollView {
+                HStack{
+                }
                 Button(action: {}, label: {
-                    Spacer(minLength: 20)
+                    Text("Modifier")
+                        .font(.headline)
+                        .fontWeight(.medium)
+                        .foregroundColor(.blue)
+                        .multilineTextAlignment(.trailing)
                     
-                    Image(systemName: "gearshape")
-                        .font(.title3)
-                        .foregroundColor(.black)
-                    
+                    Button(action: {}, label: {
+                        Spacer(minLength: 20)
+                        
+                        Image(systemName: "gearshape")
+                            .font(.title3)
+                            .foregroundColor(.black)
+                        
+                    })
                 })
-            })
-            .padding()
-            Text(user.pseudo)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
+                .padding()
+                Text(user.pseudo)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
                 
-            VStack{
-              Image(user.picture)
-                .resizable()
-                .clipShape(Circle())
-                .scaledToFit()
-                .overlay(
-                    Circle().stroke(Color.white, lineWidth: 4))
-                .shadow(radius: 5)
-                .frame(width: 250, height: 250)
-               
+                VStack{
+                    Image(user.picture)
+                        .resizable()
+                        .clipShape(Circle())
+                        .scaledToFit()
+                        .overlay(
+                            Circle().stroke(Color.white, lineWidth: 4))
+                        .shadow(radius: 5)
+                        .frame(width: 250, height: 250)
+                    
                     
                     HStack{
                         Text("Abonnés")
                             .font(.body)
                             .fontWeight(.thin)
                             .padding(1)
-                      
-        Text("\(user.NumberOfFollowers)")
-         .foregroundColor(.blue)
+                        
+                        Text("\(user.NumberOfFollowers)")
+                            .foregroundColor(.blue)
                         
                     }
                     HStack{
@@ -61,7 +61,7 @@ struct ProfilScreens: View {
                             .font(.body)
                             .fontWeight(.thin)
                             .padding(1)
-                     
+                        
                         Text("\(user.NumberOfFollowers)")
                             .font(.body)
                             .foregroundColor(.blue)
@@ -76,32 +76,36 @@ struct ProfilScreens: View {
                 
                 Spacer(minLength: 2)
                 
-                Form {
+                VStack {
                     HStack{
                         Image("person")
-                       .foregroundColor(Color.black.opacity(0.3))
+                            .foregroundColor(Color.black.opacity(0.3))
                         
-                Text(user.name)
-                      
-                    }
+                        Text(user.name)
+                        Spacer()
+                        
+                    }.padding(.horizontal)
                     HStack{
                         Image("etoile")
-                       .foregroundColor(Color.black.opacity(0.3))
+                            .foregroundColor(Color.black.opacity(0.3))
                         Text(user.interests)
-                          
-                    }
+                        Spacer()
+                        
+                    }.padding(.horizontal)
                     HStack{
                         Image("avion")
-                       .foregroundColor(Color.black.opacity(0.3))
+                            .foregroundColor(Color.black.opacity(0.3))
                         Text(user.userCity)
-                          
-                  }
-              HStack{
-                Image("hotspot")
-               .foregroundColor(Color.black.opacity(0.5))
-                       Text(stringFromDate(d: user.dateSignIn))
+                        Spacer()
                         
-                    }
+                    }.padding(.horizontal)
+                    HStack{
+                        Image("hotspot")
+                            .foregroundColor(Color.black.opacity(0.5))
+                        Text(stringFromDate(d: user.dateSignIn))
+                        Spacer()
+                        
+                    }.padding(.horizontal)
                     
                 }.navigationBarHidden(true)
                 
