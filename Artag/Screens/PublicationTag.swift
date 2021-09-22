@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AfficherTag: View {
+struct PublicationTag: View {
     @State private var name: String = " "
     @State private var date: String = " "
     @State private var user: String = " "
@@ -120,9 +120,9 @@ struct AfficherTag: View {
 }
 
 
-struct AfficherTag_Previews: PreviewProvider {
+struct PublicationTag_Previews: PreviewProvider {
     static var previews: some View {
-        AfficherTag()
+        PublicationTag()
     }
 }
 

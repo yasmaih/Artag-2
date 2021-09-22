@@ -17,7 +17,7 @@ TabView{
             Image(systemName: "mappin.and.ellipse")
             Text("Artmap")
         }
-            AfficherTag()
+            PublicationTag()
                 .tabItem {
                     Image(systemName: "plus.circle")
                     Text ("Contribuez")
